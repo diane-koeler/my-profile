@@ -1,0 +1,66 @@
+body {
+	background-color: #EDE8DC;
+	color: rgb(30, 30, 30);
+	font-family: 'Merryweather', serif; 
+	font-size: 16px;
+}
+.container {
+    text-align: center; 
+    width: 700px;
+    margin: 40px auto;
+}
+
+
+#php {
+	width: 100px;
+	border-radius: 60%;
+}
+
+@media (max-width: 760px){
+    .container{
+      width: 600px;
+    }
+}
+
+@media (max-width: 500px){
+    .container{
+      width: 400px;
+    }
+}
+
+
+h1, h2, h3 {
+	font-family: 'Times New Roman', serif; 
+}
+
+h1 {
+	color: #A5B68D;
+	font-size: 32px; 
+}
+
+h2 {
+	color: #A5B68D;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: blueviolet;
+	text-decoration: underline;
+}
+
+.container {
+	width: 700px; 
+}
+
+.card-white {
+	background-color: white;
+	padding: 30px; 
+	margin: 10px; 
+	box-shadow: 0px 9px 30px 8px rgba(0, 0, 0, 0.1); 
+	border-radius: 4px; 
+}
